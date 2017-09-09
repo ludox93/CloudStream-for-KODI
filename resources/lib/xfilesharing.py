@@ -185,7 +185,7 @@ class xfilesharing(cloudservice.cloudservice):
         if folderID == 0:
             url = url+'?op=my_files'
         else:
-            url = url+'?op=my_files&fld_id='+folderID
+            url = url+'?op=my_files&fld_id='+folderID+'&per_page=1000'
 
 
         videos = {}
